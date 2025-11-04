@@ -1,7 +1,7 @@
 -- Create view for Boston Customers
 -- This view includes all customer details where the city is 'Boston'
 
-CREATE VIEW Boston_Customers AS
+CREATE OR REPLACE VIEW Boston_Customers AS
 SELECT 
     Cust_Id,
     C_first_name,
